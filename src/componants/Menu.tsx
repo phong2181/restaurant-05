@@ -4,11 +4,10 @@ import { menuData } from "../Data/menu";
 
 interface MenuProps {
   activeSection: string;
-  setActiveSection: (section: string) => void;
   onViewDetails: (dish: Dish) => void;
 }
 
-export default function Menu({ activeSection, setActiveSection, onViewDetails}: MenuProps){
+export default function Menu({ activeSection, onViewDetails}: MenuProps){
     if (activeSection !== "menu") return null;
     const openDishDetails = (dish: Dish) => {
         onViewDetails(dish);

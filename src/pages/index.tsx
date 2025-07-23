@@ -34,7 +34,6 @@ export default function HomePage() {
       {activeSection === "menu" && (
         <Menu
           activeSection={activeSection}
-          setActiveSection={setActiveSection}
           onViewDetails={handleViewDetails}
         />
       )}
