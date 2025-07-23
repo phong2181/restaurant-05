@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-import { useState } from "react";
 import { Dish } from "../Types/Dish";
 import { menuData } from "../Data/menu";
 

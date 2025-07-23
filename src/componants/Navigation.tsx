@@ -1,5 +1,4 @@
 import { Leaf } from "lucide-react";
-import { useState } from "react";
 
 interface NavigationProps {
   activeSection: string;

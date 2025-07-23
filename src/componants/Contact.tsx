@@ -1,5 +1,4 @@
 import { Clock, Mail, MapPin, Phone, Users } from "lucide-react";
-import { useState } from "react";
 
 export default function Contact(){
     return(
